@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Card Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <label for="">radius X</label>
+    <input id="radiusX" type="range" min="100" max="1000" value="420" />
+    <label for="">radius Y</label>
+    <input id="radiusY" type="range" min="100" max="1000" value="260" />
+    <label for="">Influence</label>
+    <input
+      id="influence"
+      type="range"
+      min="0"
+      max="1.0"
+      step="0.1"
+      value="0.6"
+    />
+
+    <div class="hand"></div>
+  </body>
+  <script src="/js/handDisplay.js"></script>
+</html>
